@@ -1,0 +1,83 @@
+.table-container {
+    background-image: url(../assets/Leaderboardbg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 136vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    color: #fff;
+    overflow: hidden;
+    border: none;
+    position: absolute;
+
+    th, td {
+        padding: 2vw;
+        text-align: center;
+        border: 1px solid #fff;
+    }
+
+    th {
+        font-size: 4vw;
+        font-weight: 500;
+        // color: #f6dd09;
+        color: transparent; // Make text color transparent
+        background: linear-gradient(90deg, #f6dd09, #f4a608); // Add your gradient colors
+        -webkit-background-clip: text; // Clip the background to the text
+        background-clip: text; // Ensure it works in non-WebKit browsers
+
+    }
+
+    td {        
+        font-size: 3vw;
+        font-weight: 500;
+        
+    }
+
+    tr {
+        &:nth-child(even) {
+            // background-color: lighten($table-row-bg-color, 10%);
+        }
+    }
+}
+
+.bean-icon {
+    width: 4vw;
+    margin-left: 1vw;
+}
+
+table tr:first-child td {
+  border-top: none;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr td:first-child {
+  border-left: none;
+}
+
+table tr td:last-child {
+  border-right: none;
+}
+
+
+thead tr:first-child th {
+  border-top: none;
+}
+
+thead tr th:first-child {
+  border-left: none;
+}
+
+thead tr th:last-child {
+  border-right: none;
+}

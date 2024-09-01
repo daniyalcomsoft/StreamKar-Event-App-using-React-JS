@@ -1,0 +1,90 @@
+.guide-btn {
+    position: relative;
+
+    .guide {
+        position: absolute;
+        top: -27vw;
+        right: 0;
+        width: 19vw;
+        cursor: pointer;
+    }
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-image: url('../../assets/popupandrest/Guide-bg.png');
+    background-size: 100% 100%;    
+    width: 90vw;
+    text-align: center;
+    height: 130vw;
+    position: relative;
+
+        .guide {
+            position: absolute;
+            width: 74vw;
+            height: 24vw;
+            top: -12vw;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+        }
+
+    h2 {
+        font-size: 5vw;
+        margin-top: 14vw;
+        color: white;
+        font-weight: 500;
+    }
+
+    .scrollable-content{
+        height: 102vw;
+        overflow-y: auto;
+        padding-right: 1vw;
+        margin-bottom: 6vw;
+
+        h4 {
+            text-align: left;
+            border-bottom: 1px solid white;
+            margin-bottom: 2vw;
+            color: white;
+            font-size: 4vw;
+            width: 39%;
+            font-weight: 100;
+            margin-left: 5vw;
+        }
+        p {
+            font-size: 3.5vw;
+            margin-bottom: 6vw;
+            color: white;
+            font-weight: 100;
+            margin-left: 5vw;
+            text-align: left;
+            margin-right: 3vw;
+        }
+
+    }
+
+
+    .close-btn {
+        font-size: 4vw;
+        width: 10vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -11vw;
+
+    }
+}

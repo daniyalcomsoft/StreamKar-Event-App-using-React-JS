@@ -1,0 +1,157 @@
+/* src/Calendar.css */
+.calendar {
+    width: 82%;
+    margin: 0 auto;
+    background-image: url(../assets/calandredeembg.png);
+    background-size: 100% 100%;
+
+    padding: 8vw;
+  }
+  .calendar-box{
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    background-size: 100% 100%;
+    padding: 0px;
+    border-radius: 2vw;
+    border: 1px solid white;
+    // box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+  }
+//   .calendar-header {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin-bottom: 0px;
+//     border: 1px solid white;
+//     padding: 2px;
+//     position: relative;
+//   }
+  
+  .calendar-header h3 {
+    margin: 0 auto;
+    color: white;
+    transform: rotate(540deg);
+    text-align: center;
+  }
+  
+  .days-of-week {
+    display: flex;
+  }
+  
+  .day-name {
+    width: 14.2857%;
+    text-align: center;
+    font-weight: 500;
+    color: #781209;
+    font-style: italic;
+    box-shadow: 1px 1px 2px white;
+    font-size: 4vw;
+    padding: 1vw;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .day, .empty {
+    width: 14.2857%;
+    height: 8vw;
+    text-align: center;
+    line-height: 8vw;
+    font-size: 4vw;
+  }
+  
+  .day {
+    background-color: transparent;
+    // margin-bottom: 5px;
+    // border-radius: 4px;
+    box-shadow: 1px 1px 2px white;
+    font-size: 4vw;
+  }
+  
+  // button {
+  //   background-color: #007bff;
+  //   color: white;
+  //   border: none;
+  //   padding: 5px 10px;
+  //   border-radius: 2vw;
+  //   cursor: pointer;
+  //   display: none;
+  // }
+  
+  // button:hover {
+  //   background-color: #0056b3;
+  // }
+
+//   .calendar-header {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: #f0a828; /* Background color similar to the image */
+//     color: white;
+//     font-weight: bold;
+//     font-size: 1.5rem;
+//     text-transform: uppercase;
+//     position: relative;
+//     padding: 15px 30px; /* Adjust padding for desired spacing */
+//     margin-bottom: 20px;
+//     border-top: 5px solid white; /* Top border */
+//     border-bottom: 5px solid white; /* Bottom border */
+//     clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+//   }
+  
+//   .calendar-header::before,
+//   .calendar-header::after {
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     top: 0;
+//     left: 0;
+//     border-left: 5px solid white;
+//     border-right: 5px solid white;
+//     clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+//   }
+  
+//   .calendar-header h3 {
+//     margin: 0;
+//     z-index: 1; /* Ensures text is above the pseudo-elements */
+//   }
+  
+//   .calendar-header button {
+//     background-color: transparent;
+//     border: none;
+//     color: white;
+//     font-size: 1rem;
+//     cursor: pointer;
+//     position: relative;
+//     z-index: 2; /* Ensures buttons are above the pseudo-elements */
+//   }
+  
+//   .calendar-header button:hover {
+//     text-decoration: underline;
+//   }
+  
+
+.calendar-header {
+    /* ... other styles */
+    border-top: 5px solid white; /* Top border */
+    border-bottom: 5px solid white; /* Bottom border */
+    clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+    transform: rotate(540deg);
+  }
+  
+  .calendar-header::before,
+  .calendar-header::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+  }

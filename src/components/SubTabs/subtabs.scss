@@ -1,0 +1,27 @@
+.sub-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5vw;
+
+  button {
+    width: 33%;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none !important;
+    outline: none !important;
+    background-color: transparent;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s ease;
+
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.redeem-img {
+    width: 82%;
+    margin: 0 auto;
+    background-image: url(../assets/calandredeembg.png);
+    background-size: 100% 100%;
+    padding: 8vw;
+    height: 50vw;
+    position: relative;
+    .redmee-here {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .event-bg {
+            background-image: url(../assets/eventgiftnamebg.png);
+            background-size: 100% 100%;
+            width: 50vw;
+            position: absolute;
+            height: 13vw;
+            top: 6vw;
+            span {
+                font-style: italic;
+                font-weight: 500;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3vw;
+                color: #ffde5b;
+                font-size: 4vw;
+            }
+        }
+        .bottom-text {
+            margin-top: 11vw;
+            text-align: center;
+            font-size: 3vw;
+            color: white;
+            width: 80%;
+            font-weight: 500;
+        }
+    }
+    .redeem-beans {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .redeem-boxes {
+            background-image: url(../assets/daysbg.png);
+            background-size: 100% 100%;
+            width: 30vw;
+            height: 12vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 3vw;
+                width: 24vw;
+                text-align: center;
+                color: white;
+            }
+
+        }
+    }
+
+
+    .redeem-number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .redeem-numboxes {
+            background-image: url(../assets/bg1.png);
+            background-size: 100% 100%;
+            width: 30vw;
+            height: 11vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size:6vw;
+                width: 24vw;
+                text-align: center;
+                color: white;
+                padding-bottom: 2vw;
+            }
+
+        }
+    }
+
+    img {
+        width: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+}

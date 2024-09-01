@@ -1,0 +1,103 @@
+.marque-container {
+    overflow: hidden;
+    width: 100%;
+    // height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55vw;
+  
+    .marquee-alternative {
+      margin: auto;
+      margin-left: 3vw;
+      height: 14vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .taxts {
+        // background: transparent;
+        background-image: url(../assets/Tickertape.png);
+        background-size: 100% 100%;
+        height: 10vw;
+        padding: 0vw 5vw 0vw 2vw;
+        color: white;
+        font-size: 3.5vw;
+        display: flex;
+        align-items: center;
+        // border: 1px solid rgb(241, 241, 151);
+        border-radius: 10vw;
+  
+        .uu-image {
+          width: 12vw;
+          height: 12vw;
+          margin-left: -4vw;
+          border-radius: 10vw;
+          // border: 2px solid #4074e1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          img {
+            width: 8vw;
+            border-radius: 10vw;
+          }
+  
+          a {
+            outline: none;
+            cursor: none;
+          }
+        }
+  
+        .bt-image {
+          width: 12vw;
+          height: 12vw;
+          margin-right: -6.5vw;
+          border-radius: 10vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 2vw;
+  
+          img {
+            width: 12vw;
+            border-radius: 10vw;
+          }
+  
+          a {
+            outline: none;
+            cursor: none;
+          }
+        }
+  
+        .text {
+          margin-left: 1vw;
+  
+          .content {
+            display: flex;
+            align-items: center;
+  
+            img {
+              width: 7vw;
+            }
+  
+            .nick-name {
+              text-align: initial;
+              margin-right: 1vw;
+            }
+  
+            .icon {
+              margin: 0 1vw;
+              width: 5vw;
+            }
+          }
+        }
+  
+        span {
+          color: #fff300;
+          margin-left: 1vw;
+        }
+      }
+    }
+  }

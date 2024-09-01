@@ -1,0 +1,103 @@
+.puzzle {
+    background-image: url(../../assets/Puzzle-border.png);
+    background-size: 100% 100%;
+    width: 88%;
+    height: 117vw;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4vw;
+    .row1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .one {
+            width: 35vw;
+            position: absolute;
+            left: 3vw;
+            top: 3vw;
+        }
+        .two {
+            width: 35vw;
+            position: absolute;
+            top: 3vw;
+            left: 30vw;
+        }
+        .three {
+            width: 28vw;
+            position: absolute;
+            top: 3vw;
+            right: 3vw;
+        }
+    }
+    .row2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .four {
+            width: 28vw;
+            position: absolute;
+            left: 3vw;
+            top: 30vw;
+        }
+        .five {
+            width: 35.5vw;
+            position: absolute;
+            top: 30vw;
+            left: 23vw;
+        }
+        .six {
+            width: 34vw;
+            position: absolute;
+            top: 31vw;
+            right: 3vw;
+        }
+    }
+    .row3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .seven {
+            width: 34vw;
+            position: absolute;
+            left: 3vw;
+            top: 58vw;
+        }
+        // .eight {
+        //     width: 35.5vw;
+        //     position: absolute;
+        //     top: 30vw;
+        //     left: 23vw;
+        // }
+        // .nine {
+        //     width: 34vw;
+        //     position: absolute;
+        //     top: 31vw;
+        //     right: 3vw;
+        // }
+    }
+    .row4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .ten {
+            width: 36vw;
+            position: absolute;
+            left: 3vw;
+            bottom: 3vw;
+        }
+        .eleven {
+            width: 35.5vw;
+            position: absolute;
+            bottom: 3vw;
+            left: 29vw;
+        }
+        .twelve {
+            width: 28vw;
+            position: absolute;
+            bottom: 3vw;
+            right: 3vw;
+        }
+    }
+
+
+}

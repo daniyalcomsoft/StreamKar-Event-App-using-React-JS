@@ -1,0 +1,28 @@
+.App {
+  background-image: url(./assets/bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  overflow: hidden;
+  .header {
+    .header-img{
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.rights {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  font-size: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vw;
+}

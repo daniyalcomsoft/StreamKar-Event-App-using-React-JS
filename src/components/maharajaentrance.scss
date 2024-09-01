@@ -1,0 +1,23 @@
+.maharaja-entrance {
+    width: 90%;
+    background: #dea532;
+    border: 2px solid yellow;
+    border-radius: 4vw;
+    height: 22vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+    position: relative;
+    span {
+            position: absolute;
+            padding: 1vw;
+            font-size: 5vw;
+            color: white;
+            text-align: center;
+    }
+    img {
+        position: absolute;
+        width: 11vw;
+        right: 3vw;
+        bottom: 0;
+    }
+}

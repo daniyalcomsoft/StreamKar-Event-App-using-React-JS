@@ -1,0 +1,138 @@
+.rewards-slider-gifting {
+    background-image: url(../../assets/rewardsbg.png);
+    background-size: 100% 100%;
+    width: 95%;
+    height: 60vw;
+    color: white;
+    margin: 0 auto;
+    margin-top: 5vw;
+    .sliderItem {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      top: 0vw;
+      position: relative;
+      .title{
+        position: absolute;
+        top: 0vw;
+        width: 70%;
+        top: -3vw;
+      }
+      .carousel {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        .inner {
+          width: 100%;
+          height: 100%;
+          white-space: nowrap;
+          transition: transform 0s;
+        }
+        .slide-buttons {
+          display: flex;
+
+          position: absolute;
+          top: 24vw;
+          justify-content: space-between;
+          width: 90%;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          img {
+            width: 15vw;
+          }
+        }
+      }
+      .carousel-item {
+        display: inline-flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        .inner-box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 85%;
+          height: 100%;
+          .rank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 10vw;
+            top: 4vw;
+            font-size: 3vw;
+            position: absolute;
+          }
+          .rewardImg {
+            width: 100%;
+            height: 30vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10vw;
+            .inner-container{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              width: 33%;
+              .img-box {
+                background-image: url(../../assets/Rewrads-back.png);
+                background-size: 100% 100%;
+                width: 25vw;
+                height: 25vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                  width: 13vw
+                }
+              }
+            }
+            .desc {
+              width: 85%;
+              height: 10vw;
+              font-size: 2.2vw;
+              margin: 0 auto;
+              white-space: break-spaces;
+              display: flex;
+              align-items: start;
+              justify-content: center;
+              span {
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+      .indicators {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0vw;
+        left: 0;
+        right: 0;
+        span {
+          border-radius: 50%;
+          height: 1.5vw;
+          width: 1.5vw;
+          background-color: blue;
+          margin: 3vw 0.7vw;
+        }
+        span.active {
+          background-color: yellow;
+          border-radius: 50%;
+          height: 1.5vw;
+          width: 1.5vw;
+        }
+      }
+    }
+  }

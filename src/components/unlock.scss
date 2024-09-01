@@ -1,0 +1,32 @@
+.unlock-bg {
+    background-image: url(../assets/unlocktextbg.png);
+    background-size: 100% 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10vw 0;
+    margin: 0 auto;
+    margin-top: 5vw;
+    height: 17vw;
+    transform: rotate(540deg);
+    .unlock {
+        transform: rotate(540deg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        span {
+            font-size: 5vw;
+            font-style: italic;
+            font-weight: bold;
+            color: #fce67d;
+        }
+        img {
+            width: 30vw;
+        }
+    }
+}
